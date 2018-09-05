@@ -1,0 +1,19 @@
+{
+  "name": "@drfrost/langlate-tool",
+  "version": "1.0.0",
+  "description": "Tool making it easier to add translations to Langlate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Eling",
+  "license": "MIT",
+  "bin": {
+    "langtool": "src/index.js"
+  },
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "is-valid-path": "^0.1.1",
+    "node-global-storage": "^1.2.3"
+  }
+}
